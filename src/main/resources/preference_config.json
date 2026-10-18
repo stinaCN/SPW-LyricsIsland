@@ -1,0 +1,31 @@
+{
+  "configs": [
+    {
+      "title": "设置",
+      "config": "config.json",
+      "preferences": [
+        {
+          "key": "enabled",
+          "type": "switch",
+          "title": "启用歌词推送",
+          "summary": "关闭后不再启动灵动岛、也不推送歌词",
+          "default_value": true
+        },
+        {
+          "type": "button",
+          "title": "打开设置面板",
+          "summary": "打开灵动岛的设置窗口",
+          "arrow_type": "arrow",
+          "on_click": "com.liufe.spw.winisland.MainPlugin.onOpenIslandSettingsClick"
+        },
+        {
+          "type": "button",
+          "title": "显示运行状态",
+          "summary": "查看灵动岛是否正常工作",
+          "arrow_type": "none",
+          "on_click": "com.liufe.spw.winisland.MainPlugin.onShowStatusClick"
+        }
+      ]
+    }
+  ]
+}

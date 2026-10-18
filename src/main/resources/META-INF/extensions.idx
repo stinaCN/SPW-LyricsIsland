@@ -1,0 +1,2 @@
+# PF4J 扩展索引，由 IndexedExtensionFinder 读取；每行一个 @Extension 类名
+com.liufe.spw.winisland.PlaybackExtension
